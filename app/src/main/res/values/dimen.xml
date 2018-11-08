@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="px2sp_24">14sp</dimen>
+    <dimen name="px2dp_6">6dp</dimen>
+    <dimen name="px2dp_2">2dp</dimen>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/style4"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/aboutus_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logopic" />
+    <TextView
+        android:id="@+id/aboutus_wenzi"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="做最安全的婴幼儿体温监控智能系统"
+        android:layout_below="@+id/aboutus_logo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+    </TextView>
+</RelativeLayout>
